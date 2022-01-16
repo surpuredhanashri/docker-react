@@ -10,4 +10,6 @@ RUN npm run build
 
 
 FROM nginx
+# expose port 80 to the host machine (aws)
+EXPOSE 80       
 COPY --from=builder /app/build /usr/share/nginx/html
