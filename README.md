@@ -19,3 +19,12 @@ docker-compose up --build
 frontend % docker exec -it 7f2605530584 sh
 
 docker build . - for Dockerfile / Dockerfile.prod
+
+
+
+
+Git workflow
+branching:  git checkout -b <branch_name> 
+adding:     git add <file_name>
+committing: git commit -m "message"
+push:       git push origin <branch_name>
